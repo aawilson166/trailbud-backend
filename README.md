@@ -39,7 +39,8 @@ Tues  2/16 - PRESENTATION
 
 PHP version: 8.0.0
 
-
+//command to start server
+//php -S localhost:8888
 
 
 
@@ -51,3 +52,23 @@ INSERT INTO trails (name, location, description, length) VALUES ('The Rubicon', 
 composer.json file correct? --- composer init
 .env.example file correct??
 
+moved php7.4.2 from Applications > MAMP > conf
+to:  Applications > MAMP > bin > php
+
+export PATH=/Applications/MAMP/bin/php/php7.4.2/bin:$PATH
+
+touch index.html app.js main.css in public directory
+
+php goes in routes > api.php
+
+axios and react scripts go in index.html
+
+update .env file so it connects to database locally
+
+procfile is needed to get on heroku
+
+composer create project laravel/laravel
+
+then composer install
+
+index not rendering with mamp
